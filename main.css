@@ -2,19 +2,17 @@
 
 
 nav {
-    background-color: lightblue;
+    background-color: white;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: 50px;
-
-
 }
 
 nav ul li {
     display:inline-block;
-    color:blue;
+    color: blue;
     font-weight: bold;
     margin-right: 20px;
 
@@ -23,4 +21,62 @@ nav ul li {
 nav ul{
     text-align: right;
 }
+
+a {
+    display: block;
+    height: 20px;
+    width: auto;
+    border: 1px solid black;
+    color:White;
+    background-color: lightskyblue;
+    text-decoration: none;
+}
+
+input{
+    width:200px;
+    border:1px solid #999;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: lightskyblue;
+}
+
+
+
+form{
+   margin: 0 auto;
+   width: 400px;
+   padding: 1em;
+   border: 1px solid #CCC;
+   border-radius: 1em;
+   margin-top: 10%;
+   background-color: white;
+}
+
+.button{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: lightskyblue;
+    font-size: 15px;
+    color: white;
+    border: 1px;
+}
+
+.form-ul {
+    list-style-type: none;
+}
+
+img{
+    text-align: left;
+    width:200px;
+}
+
+
+
+
+
 
